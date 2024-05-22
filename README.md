@@ -1,5 +1,6 @@
 ## About the project
-I used MERN tech stack creating the front end in react and axios. The dependencies and work tasks are tracked in GITHUB issues url - https://github.com/RajiDurai/customer-management-frontend/issues
+##### customer-management-app 
+To display a customer list based on filters set to customer's firstName, lastName and companyName. I used MERN tech stack creating the front end in react and axios. The dependencies and work tasks are tracked in GITHUB issues url - https://github.com/RajiDurai/customer-management-frontend/issues
 ### 1. Setting Up the Project:
  * Make sure you have Node.js and npm installed.
  * Create a new React project using Create React App:
