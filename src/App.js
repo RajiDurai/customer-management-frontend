@@ -35,6 +35,7 @@ function App() {
     <div className="wrapper">
       <div className="container">
         <div className="head">
+          <p className="search">Customer Management</p>
           <Search setSearch={(search) => setSearch(search)}/>
         </div>
         <div className="body">
