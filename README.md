@@ -1,6 +1,6 @@
 ## About the project
 ### customer-management-frontend 
-To display a customer list based on search set to customer's First Name or Last Name and filters set to Company Name. I used MERN tech stack creating the front end in react and axios. The dependencies installed and work tasks are tracked in GITHUB issues url - https://github.com/RajiDurai/customer-management-frontend/issues
+To display a customer list based on search set to customer's First Name or Last Name and filters set to Company Name. I used MERN tech stack creating the front end in react and axios. The dependencies installed and work tasks are tracked in GITHUB issues url - https://github.com/RajiDurai/customer-management-frontend/issues. FYI, I have started the backend implementation first.
 ### 1. Setting Up the Project:
  * Make sure you have Node.js and npm installed.
  * Create a new React project using Create React App:
@@ -52,7 +52,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Your app is ready to be deployed!
 
 ### Future goals
-* I started with backend and implemented successfully. I have implemented the front end and I have connected successfully the front end app to backend getting 200s back from the server but couldn't get the data from back end to the UI. Also I have started exploring about the MERN stack newly for this project. If I have more time, I would fix the components to get the data/object rendering to the page successfully with search and filter. What I would have done differently in this situation is that I have applied the mvc architecture to write a java webapp using Springboot/similar and linked to any ORM mapping through controllers where the space that I am more comfortable with. But I had a big take away from learning MERN examples and javascript apps.
+* I have started the exercise with backend first and implemented successfully. I have implemented the front end and I have connected successfully the front end app to backend getting 200s back from the server but couldn't get the data from back end to the UI. Also I have started exploring about the MERN stack newly for this project. If I have more time, I would fix the components to get the data/object rendering to the page successfully with search and filter. What I would have done differently in this situation is that I have applied the mvc architecture to write a java webapp using Springboot/similar and linked to any ORM mapping through controllers where the space that I am more comfortable with. But I had a big take away from learning MERN examples and javascript apps.
 * write tests covering all componenets tests.
 * write componenets for pagination and sort.
 * Install newrelic monitoring to know about the performance
