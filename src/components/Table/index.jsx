@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 
 const Table = ({ customers }) => {
 
-    return (
+	return (
 		<div className={styles.container}>
 			<div className={styles.heading}>
 				<p className={styles.fName}>First Name</p>
@@ -17,7 +17,7 @@ const Table = ({ customers }) => {
 						</p>
 					</div>
 					<div className={styles.company_container}>
-                        <p className={styles.last_name}>
+						<p className={styles.last_name}>
 							{customer.lName}
 						</p>
 					</div>
