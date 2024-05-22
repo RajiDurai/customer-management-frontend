@@ -1,4 +1,3 @@
-
 .wrapper {
 	width: 100%;
 	min-height: 100vh;
@@ -38,6 +37,7 @@
 .filter_container {
 	flex: 1;
 }
+
 .search {
 	align-items: center;
 	font-size: 16px;

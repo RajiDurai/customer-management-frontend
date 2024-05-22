@@ -2,17 +2,17 @@
 import styles from "./styles.module.css";
 
 const Company = ({ companies, filterCompany, setFilterCompany }) => {
-	const onChange = ({ currentTarget: input }) => {
-		if (input.checked) {
-			const state = [...filterCompany, input.value];
-			setFilterCompany(state);
-		} else {
-			const state = filterCompany.filter((val) => val !== input.value);
-			setFilterCompany(state);
-		}
-	};
+    const onChange = ({ currentTarget: input }) => {
+        if (input.selected) {
+            const state = [...filterCompany, input.value];
+            setFilterCompany(state);
+        } else {
+            const state = filterCompany.filter((val) => val !== input.value);
+            setFilterCompany(state);
+        }
+    };
 
-	return (
+    return (
         <div className={styles.container}>
             <h1 className={styles.heading}>Filter By Company Name</h1>
             <div className={styles.company_container}>
@@ -27,8 +27,8 @@ const Company = ({ companies, filterCompany, setFilterCompany }) => {
                     ))}
                 </select>
             </div>
-    </div>
-	);
+        </div>
+    );
 };
 
 export default Company;
