@@ -1,0 +1,90 @@
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: var(--box-shadow);
+	margin: 10px;
+	background-color: white;
+	border-radius: 4px;
+}
+
+.fName {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 2;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.lName {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1;
+}
+
+.cName {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1;
+}
+
+.customer {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	margin: 5px 10px;
+	box-shadow: var(--box-shadow);
+	cursor: pointer;
+	transition: all 0.1s ease;
+	background-color: white;
+	border-radius: 4px;
+}
+
+.movie:hover {
+	scale: 1.01;
+}
+
+.title_container {
+	flex: 2;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+}
+
+
+.first_name{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.lastname_conatiner {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.movilast_name {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.company_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.company {
+	font-size: 16px;
+	font-weight: 400;
+}
