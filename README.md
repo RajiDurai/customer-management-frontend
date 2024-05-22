@@ -30,7 +30,8 @@ To display a customer list based on search set to customer's First Name or Last 
 ### 6. Styling and UI:
   * Style the components using CSS.
 
-Here are the steps involved to run the project locally:
+### Here are the steps involved to run the project locally:
+Please run the back end project as first step as mentioned here: https://github.com/RajiDurai/customer-management-backend/blob/main/README.md
 #### Clone the project from the git URL - 
 
 In the project directory, you can run:
